@@ -17,7 +17,7 @@ public class Ant : MonoBehaviour
     int SugarToCollect = 5;
     int SugarCollected = 0;
 
-    const float inRange = 2;
+    const float inRange = 5;
     AntState antState = AntState.GoingToColony;
     Seek seek;
 
@@ -34,7 +34,6 @@ public class Ant : MonoBehaviour
             case AntState.GoingToColony:
                 if (Vector3.Distance(colonyTransform.position, transform.position) < inRange)
                 {
-                    seek.target = null;
                     SugarCollected = 0;
                     sugarController.ResetSugar();
                     antState = AntState.CollectingSugar;

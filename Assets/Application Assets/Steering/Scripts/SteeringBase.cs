@@ -5,7 +5,7 @@ using UnityEngine;
 public class SteeringBase : MonoBehaviour
 {
     [SerializeField]
-    float maxSpeed = 10;
+    float maxSpeed = 100;
     [SerializeField]
     float speed;
     [SerializeField]
