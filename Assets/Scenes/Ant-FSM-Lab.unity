@@ -314,6 +314,7 @@ GameObject:
   - component: {fileID: 412483915}
   - component: {fileID: 412483914}
   - component: {fileID: 412483913}
+  - component: {fileID: 412483916}
   m_Layer: 0
   m_Name: Sugar (1)
   m_TagString: Untagged
@@ -397,6 +398,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412483911}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &412483916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412483911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &659282018
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +422,7 @@ GameObject:
   - component: {fileID: 659282022}
   - component: {fileID: 659282021}
   - component: {fileID: 659282020}
+  - component: {fileID: 659282023}
   m_Layer: 0
   m_Name: Sugar (2)
   m_TagString: Untagged
@@ -424,7 +438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659282018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.044858, y: 0, z: -5.49}
+  m_LocalPosition: {x: -3.42, y: 0, z: 10.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1880864752}
@@ -492,6 +506,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659282018}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &659282023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659282018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &789908652
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +530,7 @@ GameObject:
   - component: {fileID: 789908656}
   - component: {fileID: 789908655}
   - component: {fileID: 789908654}
+  - component: {fileID: 789908657}
   m_Layer: 0
   m_Name: Sugar (5)
   m_TagString: Untagged
@@ -523,7 +550,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1880864752}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &789908654
 SphereCollider:
@@ -587,6 +614,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789908652}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &789908657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789908652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &841844732
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +638,7 @@ GameObject:
   - component: {fileID: 841844736}
   - component: {fileID: 841844735}
   - component: {fileID: 841844734}
+  - component: {fileID: 841844737}
   m_Layer: 0
   m_Name: Sugar (7)
   m_TagString: Untagged
@@ -614,11 +654,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841844732}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.28, y: 0, z: 0.18}
+  m_LocalPosition: {x: -7.22, y: 0, z: -3.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1880864752}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &841844734
 SphereCollider:
@@ -682,6 +722,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841844732}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &841844737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841844732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1223343891
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,10 +745,11 @@ GameObject:
   - component: {fileID: 1223343895}
   - component: {fileID: 1223343894}
   - component: {fileID: 1223343893}
-  - component: {fileID: 1223343892}
   - component: {fileID: 1223343898}
   - component: {fileID: 1223343897}
   - component: {fileID: 1223343896}
+  - component: {fileID: 1223343899}
+  - component: {fileID: 1223343892}
   m_Layer: 0
   m_Name: Ant
   m_TagString: Untagged
@@ -704,8 +757,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1223343892
-BoxCollider:
+--- !u!135 &1223343892
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -715,7 +768,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1223343893
 MeshRenderer:
@@ -765,7 +818,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223343891}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1223343895
 Transform:
   m_ObjectHideFlags: 0
@@ -774,7 +827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223343891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.69, y: 0.25, z: -1.592}
+  m_LocalPosition: {x: 3.19, y: 0.25, z: -5.89}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -793,7 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 6.15
+  speed: 15
 --- !u!114 &1223343897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,7 +860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 10
-  speed: 0
+  speed: 0.54
   steeringSensitivity: 10
 --- !u!54 &1223343898
 Rigidbody:
@@ -825,6 +878,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1223343899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223343891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7ed8b6a1b713543b6668c1f91bc448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colonyTransform: {fileID: 1853615167}
+  sugarController: {fileID: 1880864754}
+  SugarToCollect: 4
 --- !u!1 &1240736120
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +905,7 @@ GameObject:
   - component: {fileID: 1240736124}
   - component: {fileID: 1240736123}
   - component: {fileID: 1240736122}
+  - component: {fileID: 1240736125}
   m_Layer: 0
   m_Name: Sugar (4)
   m_TagString: Untagged
@@ -852,11 +921,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240736120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.61, y: 0, z: 3.22}
+  m_LocalPosition: {x: -4.51, y: 0, z: 1.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1880864752}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1240736122
 SphereCollider:
@@ -920,6 +989,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240736120}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1240736125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240736120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1294193648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1020,6 +1101,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 401534, guid: 6879d9d2a9a87e149b2c8df8c1d358f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401534, guid: 6879d9d2a9a87e149b2c8df8c1d358f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.93
+      objectReference: {fileID: 0}
     - target: {fileID: 1726663252537666, guid: 6879d9d2a9a87e149b2c8df8c1d358f5, type: 3}
       propertyPath: m_Name
       value: SM_fence_base
@@ -1070,6 +1159,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6879d9d2a9a87e149b2c8df8c1d358f5, type: 3}
+--- !u!4 &1853615167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4699360296288084, guid: 6879d9d2a9a87e149b2c8df8c1d358f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1450556941}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1880864751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,8 +1175,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1880864752}
   - component: {fileID: 1880864753}
+  - component: {fileID: 1880864754}
   m_Layer: 0
-  m_Name: SugarPath
+  m_Name: Sugar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,10 +1197,10 @@ Transform:
   - {fileID: 412483912}
   - {fileID: 659282019}
   - {fileID: 1960369385}
-  - {fileID: 1240736121}
   - {fileID: 789908653}
-  - {fileID: 2052636500}
+  - {fileID: 1240736121}
   - {fileID: 841844733}
+  - {fileID: 2052636500}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1120,6 +1216,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 559e1ca3e175f3b49b8e2561a0da84c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1880864754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880864751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a230c4533873c34a989026edce04579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1960369384
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1240,7 @@ GameObject:
   - component: {fileID: 1960369388}
   - component: {fileID: 1960369387}
   - component: {fileID: 1960369386}
+  - component: {fileID: 1960369389}
   m_Layer: 0
   m_Name: Sugar (3)
   m_TagString: Untagged
@@ -1215,6 +1324,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960369384}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1960369389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960369384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2052636499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1348,7 @@ GameObject:
   - component: {fileID: 2052636503}
   - component: {fileID: 2052636502}
   - component: {fileID: 2052636501}
+  - component: {fileID: 2052636504}
   m_Layer: 0
   m_Name: Sugar (6)
   m_TagString: Untagged
@@ -1246,7 +1368,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1880864752}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &2052636501
 SphereCollider:
@@ -1310,3 +1432,15 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052636499}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2052636504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052636499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fe51cc8f155134f9d542340f364d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
