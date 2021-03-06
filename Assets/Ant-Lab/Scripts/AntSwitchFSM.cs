@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Ant : MonoBehaviour
+public class AntSwitchFSM : MonoBehaviour
 {
     enum AntState
     {
