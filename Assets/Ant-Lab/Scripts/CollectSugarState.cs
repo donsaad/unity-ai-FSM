@@ -5,6 +5,7 @@ using UnityEngine;
 public class CollectSugarState : AntState
 {
     int SugarNum;
+    Sugar sugar;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -19,7 +20,15 @@ public class CollectSugarState : AntState
         {
             ant.SugarHit = false;
             animator.SetInteger("SugarNum", ++SugarNum);
-            ant.seek.target = ant.sugarController.GetRandomSugar().transform;
+            sugar = ant.sugarController.GetRandomSugar();
+            if (null == sugar)
+            {
+                animator.SetTrigger("DoneCollecting");
+            }
+            else
+            {
+                ant.seek.target = sugar.transform;
+            }
         }
     }
 
