@@ -11,6 +11,7 @@ public class Ant : MonoBehaviour
 
     [SerializeField]
     Transform colonyTransform;
+
     [SerializeField]
     SugarController sugarController;
     [SerializeField]

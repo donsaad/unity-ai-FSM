@@ -748,8 +748,9 @@ GameObject:
   - component: {fileID: 1223343898}
   - component: {fileID: 1223343897}
   - component: {fileID: 1223343896}
-  - component: {fileID: 1223343899}
   - component: {fileID: 1223343892}
+  - component: {fileID: 1223343899}
+  - component: {fileID: 1223343900}
   m_Layer: 0
   m_Name: Ant
   m_TagString: Untagged
@@ -827,7 +828,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223343891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.19, y: 0.25, z: -18.37}
+  m_LocalPosition: {x: 2.84, y: 0.25, z: -2.67}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -887,12 +888,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1223343891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7ed8b6a1b713543b6668c1f91bc448, type: 3}
+  m_Script: {fileID: 11500000, guid: e3d3c89b8f4422840a2176f8dd1b9310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   colonyTransform: {fileID: 1853615167}
   sugarController: {fileID: 1880864754}
-  SugarToCollect: 5
+  seek: {fileID: 0}
+--- !u!95 &1223343900
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223343891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4dfc192de655fcf46bd3ded382880412, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1240736120
 GameObject:
   m_ObjectHideFlags: 0
